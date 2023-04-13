@@ -6,7 +6,7 @@ from config_loader import config
 import hashlib
 import uuid
 
-@app.route("/analiticarka/get/login/<username>", methods=["POST",])
+@app.route("/get/login/<username>", methods=["POST",])
 @login_required
 def post_user_login(username:str):
     

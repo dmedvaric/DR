@@ -15,8 +15,8 @@ from handlers.refresh_user_settings import *
 from handlers.get_user_settings import *
 from handlers.registration_user import *
 from handlers.login_user import *
-from handlers.mail_sender import * 
+from handlers.change_pass import *
 
 if __name__ == "__main__":
-    app.run(debug=True)
+   app.run(host='0.0.0.0', port=5000)
 
